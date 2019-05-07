@@ -7,7 +7,5 @@ build: clean
 	cat pages.txt | $(A11Y) \
 	--output-directory public \
  	--maximum-depth 1 \
+	--verbose \
 	-
-
-	ls public/
-	cat public/index.html
