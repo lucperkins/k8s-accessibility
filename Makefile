@@ -8,3 +8,6 @@ build: clean
 	--output-directory public \
  	--maximum-depth 1 \
 	-
+
+	ls public/
+	cat public/index.html
